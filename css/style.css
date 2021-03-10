@@ -3,10 +3,18 @@
 body {
     color: black;
     width: 50%;
-    min-width: 400px;
+    min-width: 480px;
     margin: auto;
 }
 
+@media screen and (max-width:480px) {
+ 
+	/*　この位置に記述する　*/
+	main {
+		width: 80%;
+	}
+ 
+}
 
 a#title {
     color:black;
@@ -15,8 +23,9 @@ a#title {
 }
 
 div.wrapper-header {
-    background-color: gainsboro;
+    font-size: 80%;
     color: black;
+    text-align: center;
 }
 
 div.section {
@@ -33,8 +42,8 @@ div.portrait, div.biography {
 div.portrait {
     width: 300px;
     max-width: 30%;
-    margin-right: 10px;
-    padding-left: 40px;
+    margin-right: 0px;
+    padding-left: 0px;
 }
 
 img.portrait {
@@ -55,6 +64,7 @@ a#isi:hover {
 
 ul.education {
     list-style: none;
+    padding-left: 0%;
 }
 
 ul.education li {
@@ -64,18 +74,20 @@ ul.education li {
 
 div.works {
     display: inline-block;
-    width: 25%;
-    padding-left: 40px;
-
+    width: 30%;
+    padding-left: 0px;
+    align-items: center;
 }
 
 img.works {
     width: 80%;
+    padding-left: 10%;
 }
 
 a.works {
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 
 a.works:hover {
@@ -84,11 +96,12 @@ a.works:hover {
 }
 
 div.programming, div.concepts, div.languages {
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 ul.experience {
     list-style: none;
+    padding-left: 0%;
 }
 
 ul.experience li {
@@ -97,11 +110,12 @@ ul.experience li {
 }
 
 p.skills {
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 ul.contact {
     list-style: none;
+    padding-left: 0%;
 }
 
 a.black_link:link,a.black_link:visited  {
