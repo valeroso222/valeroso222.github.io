@@ -5,13 +5,14 @@ body {
     width: 50%;
     min-width: 480px;
     margin: auto;
+    font-family: Futura, 'Century Gothic', 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
 }
 
 @media screen and (max-width:480px) {
  
 	/*　この位置に記述する　*/
 	main {
-		width: 80%;
+		width: 70%;
 	}
  
 }
@@ -23,7 +24,7 @@ a#title {
 }
 
 div.wrapper-header {
-    font-size: 80%;
+    font-size: 70%;
     color: black;
     text-align: center;
 }
@@ -40,9 +41,9 @@ div.portrait, div.biography {
 }
 
 div.portrait {
-    width: 300px;
-    max-width: 30%;
-    margin-right: 0px;
+    width: 200px;
+    max-width: 20%;
+    margin-right: 10px;
     padding-left: 0px;
 }
 
@@ -69,12 +70,12 @@ ul.education {
 
 ul.education li {
     position: relative;
-    padding: 0.2em 0em 0.2em 0em;
+    padding: 0.5em 0em 0.5em 0em;
 }
 
 div.works {
     display: inline-block;
-    width: 30%;
+    width: 20%;
     padding-left: 0px;
     align-items: center;
 }
@@ -106,7 +107,7 @@ ul.experience {
 
 ul.experience li {
     position: relative;
-    padding: 0.2em 0em 0.2em 0em;
+    padding: 0.5em 0em 0.5em 0em;
 }
 
 p.skills {
