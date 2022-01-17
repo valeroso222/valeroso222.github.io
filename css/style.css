@@ -48,6 +48,7 @@ div.portrait {
 }
 
 img.portrait {
+    margin-left: 10px;
     width: 90%;
 }
 
@@ -66,6 +67,7 @@ a#isi:hover {
 ul.education {
     list-style: none;
     padding-left: 0%;
+    margin-left: 10px;
 }
 
 ul.education li {
@@ -103,6 +105,7 @@ div.programming, div.concepts, div.languages {
 ul.experience {
     list-style: none;
     padding-left: 0%;
+    margin-left: 10px;
 }
 
 ul.experience li {
@@ -112,11 +115,13 @@ ul.experience li {
 
 p.skills {
     padding-left: 0px;
+    margin-left: 10px;
 }
 
 ul.contact {
     list-style: none;
     padding-left: 0%;
+    margin-left: 10px;
 }
 
 a.black_link:link,a.black_link:visited  {
