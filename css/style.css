@@ -113,6 +113,17 @@ ul.experience li {
     padding: 0.5em 0em 0.5em 0em;
 }
 
+ul.award {
+    list-style: none;
+    padding-left: 0%;
+    margin-left: 10px;
+}
+
+ul.award li {
+    position: relative;
+    padding: 0.5em 0em 0.5em 0em;
+}
+
 p.skills {
     padding-left: 0px;
     margin-left: 10px;
